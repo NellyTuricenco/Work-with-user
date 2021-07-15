@@ -1,76 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    display: flex;
-    padding: 30px 0;
+  margin: 0;
+  font-family: "Jura Kaffeesatz", sans-serif;
+  display: flex;
+  padding: 30px 0;
 }
 
 .description {
-    max-width: 600px;
-    margin: auto;
-    background-image: linear-gradient(to top, #ccc, #eee);
-    box-shadow: 0 3px 5px #111;
-    padding: 20px;
-    font-size: 1.3rem;
+  max-width: 600px;
+  margin: auto;
+  background-image: linear-gradient(
+    to top,
+    rgb(60, 119, 134),
+    rgb(141, 207, 216)
+  );
+  box-shadow: 0 3px 5px #111;
+  padding: 20px;
+  font-size: 1.3rem;
 }
 
 .description h1 {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Jura', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Jura", sans-serif;
 }
 
 .description p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .description strong,
 .description em {
-    display: inline-block;
-    font-style: italic;
-    letter-spacing: 1px;
-    font-size: 1.4rem;
+  display: inline-block;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
 }
 
-.description h1, .description strong {
-    color: darkcyan;
-    margin-bottom: 10px;
+.description h1,
+.description strong {
+  color: rgb(3, 18, 70);
+  margin-bottom: 10px;
 }
 
 .description ol {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .description ol:last-of-type {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .description ul {
-    list-style-type: none;
-    margin-bottom: 15px;
+  list-style-type: none;
+  margin-bottom: 15px;
 }
 
 .description li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .description span {
-    color: darkblue;
+  color: darkblue;
 }
 
 .description em {
-    color: #62a007;
-    margin-bottom: 10px;
-    font-weight: bold;
+  color: #2013d8;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .info {
-    background-color: lightblue;
-    padding: 20px;
+  background-color: rgb(27, 178, 228);
+  padding: 20px;
 }
